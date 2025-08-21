@@ -25,7 +25,10 @@ class Clothing{
             console.log(`This ${this.color} ${this.material} ${this.name} is dirty!!! WASH NOW!`);
         } else {
             console.log(`This ${this.color} ${this.material} ${this.name} is clean!!! WEAR NOW!!`);
-        }       
+        } 
+        // Alternative way to write in block code:
+        // console.log(`The ${this.name} is ${this.color} and made of ${this.material}. 
+        // It is ${this.isDirty ? "dirty" : "clean"}.`);
     }
 
     wear() {
