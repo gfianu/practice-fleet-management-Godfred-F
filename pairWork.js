@@ -26,7 +26,7 @@ class Clothing{
         } else {
             console.log(`This ${this.color} ${this.material} ${this.name} is clean!!! WEAR NOW!!`);
         } 
-        // Alternative way to write in block code:
+        // Alternative way to write code using a ternary operator:
         // console.log(`The ${this.name} is ${this.color} and made of ${this.material}. 
         // It is ${this.isDirty ? "dirty" : "clean"}.`);
     }
@@ -41,7 +41,7 @@ class Clothing{
     }
 }
 
-// Instantiating three different kinds of clothing clothing 
+// Instantiating three different kinds of clothing 
 let tShirt = new Clothing ("T-Shirt", "Red", "Cotton");
 let jeans = new Clothing ("Apple-Bottomed Jeans", "Black", "Denim");
 let boots = new Clothing ("Boots with the fur", "Grey", "Leather");
